@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-7KMGnBGiLFsoeEGivYmUzZWxaAvFvgb2k4DdMbxvT2t5kC3gkKz9KyE1Cv4HKy6XGJdHHH4G4ZlQC2+yZ8X5Zw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+    <!-- Background Video -->
+    <video id="bg-video" autoplay muted loop playsinline>
+      <source src="assets/bg vidio/bgvidio.mp4" type="video/mp4" />
+    </video>
     <header class="navbar">
       <div class="container">
         <h1 class="logo neon-text">Portfolio</h1>
@@ -23,7 +27,7 @@
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#education-experience">Education & Experience</a></li>
+            <!-- <li><a href="#education-experience">Education & Experience</a></li> -->
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certifications">Certifications</a></li>
@@ -44,7 +48,7 @@
         <div class="hero-text">
           <h2 class="greeting">Hi, I'm</h2>
           <h1 class="name neon-text" data-text="Full Name">Gunalan A</h1>
-          <h3 class="tagline">A Passionate MERN Stack Developer</h3>
+          <h3 class="tagline">A Passionate MERN Stack Developer and Tech Enthusiasts</h3>
           <a href="#projects" class="btn-neon">View My Work</a>
           <div class="hero-social">
             <a href="#" aria-label="GitHub"><img src="assets/icons/github-sign.png" alt="GitHub" class="icon-img" /></a>
@@ -84,19 +88,30 @@
               <p class="timeline-date">2022 - 2026</p>
               <p>Anna University</p>
               <p>Dhanalakshmi Srinivasan College of Engineering and Technology</p>
-              <p>CGPA: 8.5</p>
+              <p>CGPA: 8.1</p>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-content">
               <h3>Work Experience</h3>
-              <h4>Job Title</h4>
-              <p class="timeline-date">Year - Present/Year</p>
-              <p>Company Name</p>
+              <h4>Full Stack Intern</h4>
+              <p class="timeline-date">March - June 2025</p>
+              <p> Company name : Vcodez</p>
               <ul>
-                <li>Responsibility/Achievement 1</li>
-                <li>Responsibility/Achievement 2</li>
-                <li>Responsibility/Achievement 3</li>
+                <li> PHARMACY OPERATIONS AUTOMATION & BILLING SYSTEM</li>
+                
+              </ul>
+              <h4>Web Development Intern</h4>
+              <p class="timeline-date">25 March - 25 April 2024</p>
+              <p> Company name : Codsoft</p>
+              <ul>
+                <li> SkyTrack - Weather Tracker</li>
+              </ul>
+              <h4>Web Development Intern</h4>
+              <p class="timeline-date">30 April - 30 May 2024</p>
+              <p> Company name : Cipherbyte technologies</p>
+              <ul>
+                <li> E-commerce web application</li>
               </ul>
             </div>
           </div>
@@ -153,24 +168,57 @@
         <h2 class="section-title neon-text">Projects</h2>
         <div class="projects-grid">
           <div class="project-card">
-            <h3>Project One</h3>
-            <p>A full-stack social media application built with the MERN stack.</p>
-            <a href="#" class="btn-link" target="_blank">Live Demo</a>
-            <a href="#" class="btn-link" target="_blank">Source Code</a>
+            <h3>DS-Symposia'25</h3>
+            <p>A modern, responsive website for the DS SYMPOSIA '25, a National Level Technical Symposium organized by Dhanalakshmi Srinivasan College of Engineering and Technology.</p>
+            <a href="https://symposia.dscet.ac.in/" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/DS-Symposium.git" class="btn-link" target="_blank">Source Code</a>
           </div>
           <div class="project-card">
-            <h3>Project Two</h3>
-            <p>Real-time chat application using WebSockets and React.</p>
-            <a href="#" class="btn-link" target="_blank">Live Demo</a>
-            <a href="#" class="btn-link" target="_blank">Source Code</a>
+            <h3>Techtronics'25</h3>
+            <p>TECH TRONICS'25 is a responsive single-page React website for the Department of Information Technology symposium.</p>
+            <a href="https://techtronics-roan.vercel.app/" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/Tech3.o.git" class="btn-link" target="_blank">Source Code</a>
           </div>
           <div class="project-card">
-            <h3>Project Three</h3>
-            <p>E-commerce platform with secure payments and admin dashboard.</p>
-            <a href="#" class="btn-link" target="_blank">Live Demo</a>
-            <a href="#" class="btn-link" target="_blank">Source Code</a>
+            <h3>Instagram Clone</h3>
+            <p>InstaClone is a simple Instagram clone built using Node.js, Express.js, and MongoDB with server-side rendering using EJS templates.</p>
+            <a href="https://github.com/Gunalan183/Instagram-Clone.git" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/Instagram-Clone.git" class="btn-link" target="_blank">Source Code</a>
+          </div>
+          <div class="project-card">
+            <h3>Inovix</h3>
+            <p>INOVIX is a modern, responsive website for a professional digital solutions provider, offering a range of IT services</p>
+            <a href="https://inovix-new.vercel.app/" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/inovix.new.git" class="btn-link" target="_blank">Source Code</a>
+          </div>
+          <div class="project-card">
+            <h3>SCATCH – Full-Stack E-Commerce Platform</h3>
+            <p>This project is developed using modern web technologies, including EJS for templating, Tailwind CSS for styling, and Node.js for backend operations.</p>
+            <a href="https://github.com/Gunalan183/E-Commerce-Platform.git" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/E-Commerce-Platform.git" class="btn-link" target="_blank">Source Code</a>
+          </div>
+          <div class="project-card">
+            <h3>Interactive eBook Store</h3>
+            <p>Built with MongoDB • Express • React • Node.js, Material-UI for a modern UI, Redux Toolkit for state-management and RTK Query for data-fetching.</p>
+            <a href="https://github.com/Gunalan183/Ebooks-.git" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/Ebooks-.git" class="btn-link" target="_blank">Source Code</a>
+          </div>
+          <div class="project-card">
+            <h3>ChatGPT Reviews Sentiment Analysis</h3>
+            <p>A comprehensive Natural Language Processing (NLP) project for sentiment analysis of ChatGPT reviews, classifying them as positive, neutral, or negative based on textual content.</p>
+            <a href="https://github.com/Gunalan183/chatgpt_sentiment_analysis.git" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/chatgpt_sentiment_analysis.git" class="btn-link" target="_blank">Source Code</a>
+          </div>
+          <div class="project-card">
+            <h3>Fake News Detection on Reddit Posts</h3>
+            <p>This project implements a machine learning model to detect fake news in Reddit posts. It includes data preprocessing, feature extraction, model training, and a Streamlit web interface for demonstration.</p>
+            <a href="https://github.com/Gunalan183/fake-news-detector-project.git" class="btn-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/Gunalan183/fake-news-detector-project.git" class="btn-link" target="_blank">Source Code</a>
           </div>
         </div>
+      </div>
+      <div class="more-projects text-center">
+        <a href="https://github.com/Gunalan183?tab=repositories" class="btn-neon" target="_blank">15+ Major Projects</a>
       </div>
     </section>
 
@@ -205,13 +253,16 @@
               <img src="assets/certificates/simplelearn.jpg" alt="Certification 3" class="certification-img">
             </div>
             <div class="certification-content">
-              <h3>Cloud Computing Fundamentals</h3>
+              <h3>Natural Language Processing(NLP)</h3>
               <p class="certification-issuer">Issued by: SimpleLearn</p>
               <p class="certification-date">Issued: January 2023</p>
               <a href="#" class="btn-link" target="_blank">View Credential</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="more-certifications text-center">
+        <a href="https://github.com/Gunalan183?tab=stars" class="btn-neon" target="_blank">20+ Other Certifications</a>
       </div>
     </section>
 
@@ -220,22 +271,35 @@
         <h2 class="section-title neon-text">Get In Touch</h2>
         <p>
           Have an exciting project or just want to say hi? Send me an email at
-          <a class="email-link" href="mailto:youremail@example.com">youremail@example.com</a>
+          <a class="email-link" href="mailto:gunalana18@gmail.com">gunalana18@gmail.com</a>
         </p>
+        <form id="contact-form" class="contact-form" action="mailto:gunalana18@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-neon">Send Message</button>
+        </form>
         <div class="social-links">
-          <a href="#" aria-label="GitHub"><img src="assets/icons/github-sign.png" alt="GitHub" class="icon-img" /></a>
-          <a href="#" aria-label="LinkedIn"><img src="assets/icons/linkedin.png" alt="LinkedIn" class="icon-img" /></a>
-          <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.png" alt="Instagram" class="icon-img" /></a>
-          <a href="#" aria-label="Twitter"><img src="assets/icons/twitter.png" alt="Twitter" class="icon-img" /></a>
+          <a href="https://github.com/Gunalan183" aria-label="GitHub"><img src="assets/icons/github-sign.png" alt="GitHub" class="icon-img" /></a>
+          <a href="https://www.linkedin.com/in/gunalan18/" aria-label="LinkedIn"><img src="assets/icons/linkedin.png" alt="LinkedIn" class="icon-img" /></a>
+          <a href="https://www.instagram.com/crazy..n15_?igsh=MTgxYmcyY2tpemVxNA==" aria-label="Instagram"><img src="assets/icons/instagram.png" alt="Instagram" class="icon-img" /></a>
+          <a href="https://twitter.com/Gunalan183" aria-label="Twitter"><img src="assets/icons/twitter.png" alt="Twitter" class="icon-img" /></a>
         </div>
       </div>
     </section>
 
     <footer class="footer">
-      <p>© <span id="year"></span> Full Name. All Rights Reserved.</p>
+      <p>© <span id="year"></span> Gunalan A. All Rights Reserved.</p>
     </footer>
 
     <script src="https://kit.fontawesome.com/3b99ef6632.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
